@@ -1,0 +1,6 @@
+framework module Pods_ColorSketch {
+  umbrella header "Pods-ColorSketch-umbrella.h"
+
+  export *
+  module * { export * }
+}

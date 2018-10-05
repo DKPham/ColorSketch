@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		15EF21DE2166FD3600E06530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21DD2166FD3600E06530 /* AppDelegate.swift */; };
-		15EF21E02166FD3600E06530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21DF2166FD3600E06530 /* ViewController.swift */; };
 		15EF21E32166FD3600E06530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF21E12166FD3600E06530 /* Main.storyboard */; };
 		15EF21E62166FD3700E06530 /* ColorSketch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21E42166FD3700E06530 /* ColorSketch.xcdatamodeld */; };
 		15EF21E82166FD3800E06530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF21E72166FD3800E06530 /* Assets.xcassets */; };
 		15EF21EB2166FD3800E06530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF21E92166FD3800E06530 /* LaunchScreen.storyboard */; };
+		15EF21F32167093000E06530 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21F22167093000E06530 /* DrawViewController.swift */; };
+		15EF21F521674A8900E06530 /* PicturesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21F421674A8900E06530 /* PicturesCollectionViewController.swift */; };
+		15EF21F721674AE200E06530 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21F621674AE200E06530 /* PictureCollectionViewCell.swift */; };
+		15EF21F92167567200E06530 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF21F82167567200E06530 /* DetailViewController.swift */; };
+		304CA534D9BFC41DF0015D31 /* Pods_ColorSketch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5003182663073CCEC3ADE /* Pods_ColorSketch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15EF21DA2166FD3600E06530 /* ColorSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF21DD2166FD3600E06530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15EF21DF2166FD3600E06530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15EF21E22166FD3600E06530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15EF21E52166FD3700E06530 /* ColorSketch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorSketch.xcdatamodel; sourceTree = "<group>"; };
 		15EF21E72166FD3800E06530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EF21EA2166FD3800E06530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15EF21EC2166FD3800E06530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EF21F22167093000E06530 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		15EF21F421674A8900E06530 /* PicturesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesCollectionViewController.swift; sourceTree = "<group>"; };
+		15EF21F621674AE200E06530 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		15EF21F82167567200E06530 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		32B5003182663073CCEC3ADE /* Pods_ColorSketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorSketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84B69934443AD80933E249C /* Pods-ColorSketch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSketch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorSketch/Pods-ColorSketch.release.xcconfig"; sourceTree = "<group>"; };
+		E1206DD0C5F69721F8B81EA9 /* Pods-ColorSketch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorSketch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorSketch/Pods-ColorSketch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304CA534D9BFC41DF0015D31 /* Pods_ColorSketch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059D193379113F1671EBC271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B5003182663073CCEC3ADE /* Pods_ColorSketch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D8A2F612706CCAA6E532440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1206DD0C5F69721F8B81EA9 /* Pods-ColorSketch.debug.xcconfig */,
+				D84B69934443AD80933E249C /* Pods-ColorSketch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		15EF21D12166FD3600E06530 = {
 			isa = PBXGroup;
 			children = (
 				15EF21DC2166FD3600E06530 /* ColorSketch */,
 				15EF21DB2166FD3600E06530 /* Products */,
+				0D8A2F612706CCAA6E532440 /* Pods */,
+				059D193379113F1671EBC271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,41 @@
 			isa = PBXGroup;
 			children = (
 				15EF21DD2166FD3600E06530 /* AppDelegate.swift */,
-				15EF21DF2166FD3600E06530 /* ViewController.swift */,
-				15EF21E12166FD3600E06530 /* Main.storyboard */,
+				15EF21FC21675E0600E06530 /* Controllers */,
+				15EF21FB21675DF800E06530 /* Model */,
+				15EF21FA21675DE900E06530 /* View */,
 				15EF21E72166FD3800E06530 /* Assets.xcassets */,
 				15EF21E92166FD3800E06530 /* LaunchScreen.storyboard */,
 				15EF21EC2166FD3800E06530 /* Info.plist */,
-				15EF21E42166FD3700E06530 /* ColorSketch.xcdatamodeld */,
 			);
 			path = ColorSketch;
+			sourceTree = "<group>";
+		};
+		15EF21FA21675DE900E06530 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15EF21E12166FD3600E06530 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EF21FB21675DF800E06530 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15EF21E42166FD3700E06530 /* ColorSketch.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15EF21FC21675E0600E06530 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15EF21F22167093000E06530 /* DrawViewController.swift */,
+				15EF21F421674A8900E06530 /* PicturesCollectionViewController.swift */,
+				15EF21F82167567200E06530 /* DetailViewController.swift */,
+				15EF21F621674AE200E06530 /* PictureCollectionViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15EF21EF2166FD3800E06530 /* Build configuration list for PBXNativeTarget "ColorSketch" */;
 			buildPhases = (
+				B80923557213760FBDEDA6FB /* [CP] Check Pods Manifest.lock */,
 				15EF21D62166FD3600E06530 /* Sources */,
 				15EF21D72166FD3600E06530 /* Frameworks */,
 				15EF21D82166FD3600E06530 /* Resources */,
+				91DABB0790D9FC37E457D4A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +192,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91DABB0790D9FC37E457D4A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ColorSketch/Pods-ColorSketch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorSketch/Pods-ColorSketch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B80923557213760FBDEDA6FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorSketch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15EF21D62166FD3600E06530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EF21F32167093000E06530 /* DrawViewController.swift in Sources */,
 				15EF21E62166FD3700E06530 /* ColorSketch.xcdatamodeld in Sources */,
-				15EF21E02166FD3600E06530 /* ViewController.swift in Sources */,
+				15EF21F721674AE200E06530 /* PictureCollectionViewCell.swift in Sources */,
+				15EF21F92167567200E06530 /* DetailViewController.swift in Sources */,
 				15EF21DE2166FD3600E06530 /* AppDelegate.swift in Sources */,
+				15EF21F521674A8900E06530 /* PicturesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +385,7 @@
 		};
 		15EF21F02166FD3800E06530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1206DD0C5F69721F8B81EA9 /* Pods-ColorSketch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +404,7 @@
 		};
 		15EF21F12166FD3800E06530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84B69934443AD80933E249C /* Pods-ColorSketch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
